@@ -24,7 +24,7 @@ terraform {
 }
 
 inputs = {
-    web_app_name = "web-app-1"
+    web_app_name = "Acme-lab-middleware"
     resource_group_name =   ["Acme_RG"]
     location    =   "West Europe"
 }

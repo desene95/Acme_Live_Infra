@@ -11,3 +11,8 @@ resource "azurerm_resource_group" "rg" {
 output "resource_group_name"{
 value = azurerm_resource_group.rg.name
 }
+
+locals {
+
+    name = azurerm_resource_group.rg.name
+}
